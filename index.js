@@ -51,7 +51,7 @@ let init = async () => {
 
 	localStream = await navigator.mediaDevices.getUserMedia({
 		video: true,
-		audio: false,
+		audio: true,
 	});
 
 	//setting the local User video feed
